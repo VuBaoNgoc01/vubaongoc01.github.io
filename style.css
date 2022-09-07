@@ -253,6 +253,7 @@ section .title::after{
     margin: 0px 20px 0px 0px;
     display: inline-flex;
     text-align: center;
+    justify-content: space-around;
     color: black;
     background-color: rgb(179, 179, 179);
     border-radius: 5px;
@@ -369,19 +370,19 @@ section .title::after{
 }
 
 .skills .skill-content .right .html::before{
-    width: 80%;
+    width: 60%;
 }
 .skills .skill-content .right .css::before{
     width: 60%;
 }
 .skills .skill-content .right .js::before{
-    width: 80%;
+    width: 40%;
 }
 .skills .skill-content .right .php::before{
-    width: 50%;
+    width: 60%;
 }
 .skills .skill-content .right .sql::before{
-    width: 10%;
+    width: 20%;
 }
 
 /*teams section styling*/
